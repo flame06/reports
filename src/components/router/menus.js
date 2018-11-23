@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import NavLink from '@/components/nav_link'
-export default class NewsContainer extends Component {
+import NavLink from '@/components/router/nav_link'
+export default class Menus extends Component {
  constructor(props) {
   super(props)
   this.state = {
    menus: [
     {
-     link: '/report1',
-     title: 'NewsDetail'
+     link: '/dayIndex',
+     title: '日报'
     },
     {
-     link: '/report2',
-     title: 'UserCenter'
+     link: '/livestockIndex',
+     title: '猪只存栏信息'
     }
    ]
   }
