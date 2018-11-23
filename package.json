@@ -129,5 +129,5 @@
       ]
     ]
   },
-  "proxy": "https://localhost:9190"
+  "proxy": "http://localhost:9190"
 }
