@@ -13,7 +13,7 @@ export default class RHeader  extends Component {
  render() {
   return (
     <div>
-      <Icon type="left" style={{ fontSize: 18, color: '#08c', padding: 5, cursor: 'pointer'}} onClick={this.back} />
+      <Icon type="left" style={{ fontSize: 18, color: '#08c', padding: '5px 10px', cursor: 'pointer'}} onClick={this.back} />
     </div>
   )
  }

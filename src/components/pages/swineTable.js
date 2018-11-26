@@ -10,11 +10,11 @@ export default class SwineTable extends Component {
     console.log(record.name)
   }
  render() {
-   const {columns, tableData} = this.props
+   const {columns, tableData, marginTop, x} = this.props
    return (
-    <div style={{height: '100%',marginTop: 30}}>
+    <div style={{height: '100%',marginTop: marginTop}}>
       <Table columns={columns} bordered dataSource={tableData}
-             scroll={{x: 600}}>
+             scroll={{x: x}}>
       </Table>
     </div>
   )

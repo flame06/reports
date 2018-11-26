@@ -3,7 +3,6 @@
  */
 import React, {Component} from 'react'
 import {BrowserRouter as Router, Route, Redirect} from 'react-router-dom'
-//import App from '@/components/App'
 import Menus from '@/components/router/menus'
 import DayIndex from '@/components/pages/dayIndex'
 import LivestockIndex from '@/components/pages/livestockIndex'

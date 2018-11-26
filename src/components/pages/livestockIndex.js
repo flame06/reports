@@ -441,7 +441,7 @@ export default class NewsDetail extends Component {
      {/*分周玲可售肥猪分布*/}
      <div id="divB1Graph"></div>
      <Modal  visible={showModal} footer={null} width='100%' style={{top: 0,bottom: 0,right: 0,left: 0, minHeight: '100%', backgroundColor:'#fff'}} onCancel={this.closeModal}>
-      <SwineTable date={date} tableData={tableData} columns={columns}></SwineTable>
+      <SwineTable x={600} marginTop={30} date={date} tableData={tableData} columns={columns}></SwineTable>
      </Modal>
     </div>
   )
