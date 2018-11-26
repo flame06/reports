@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60c18e2e-ccea-4ba6-aa9e-257ed7e624d4" name="Default" comment="" />
+    <list default="true" id="60c18e2e-ccea-4ba6-aa9e-257ed7e624d4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/dayIndex.js" afterPath="$PROJECT_DIR$/src/components/pages/dayIndex.js" />
+    </list>
     <ignored path="reports.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,19 +27,20 @@
       <file leaf-file-name="dayIndex.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/pages/dayIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6740506">
-              <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.914557">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
-                <element signature="e#1655#2027#0" expanded="false" />
-                <element signature="e#2165#3203#0" expanded="false" />
-                <element signature="e#3299#4466#0" expanded="false" />
-                <marker date="1543224953736" expanded="true" signature="6102:6301" placeholder="..." />
-                <marker date="1543224953736" expanded="true" signature="6121:6133" placeholder="..." />
-                <marker date="1543224953736" expanded="false" signature="6382:7056" placeholder="..." />
-                <marker date="1543224953736" expanded="true" signature="6419:6548" placeholder="..." />
-                <marker date="1543224953736" expanded="true" signature="6585:6714" placeholder="..." />
-                <marker date="1543224953736" expanded="true" signature="6749:6878" placeholder="..." />
-                <marker date="1543224953736" expanded="true" signature="6913:7042" placeholder="..." />
+                <element signature="e#1116#1855#0" expanded="false" />
+                <element signature="e#2535#3573#0" expanded="false" />
+                <element signature="e#3669#4836#0" expanded="false" />
+                <element signature="e#4975#6095#0" expanded="false" />
+                <marker date="1543226085321" expanded="true" signature="6527:6726" placeholder="..." />
+                <marker date="1543226085321" expanded="true" signature="6546:6558" placeholder="..." />
+                <marker date="1543226085321" expanded="false" signature="6807:7481" placeholder="..." />
+                <marker date="1543226085321" expanded="true" signature="6844:6973" placeholder="..." />
+                <marker date="1543226085321" expanded="true" signature="7010:7139" placeholder="..." />
+                <marker date="1543226085321" expanded="true" signature="7174:7303" placeholder="..." />
+                <marker date="1543226085321" expanded="true" signature="7338:7467" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -412,9 +416,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="16" width="950" height="998" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24780701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24780701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -475,8 +479,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="362" column="13" selection-start-line="362" selection-start-column="13" selection-end-line="362" selection-end-column="13" />
           <folding>
-            <element signature="e#5860#5935#0" expanded="false" />
-            <element signature="e#5960#5985#0" expanded="false" />
+            <element signature="e#6285#6360#0" expanded="false" />
+            <element signature="e#6385#6410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,8 +553,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5860#5935#0" expanded="false" />
-            <element signature="e#5960#5985#0" expanded="false" />
+            <element signature="e#6285#6360#0" expanded="false" />
+            <element signature="e#6385#6410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -594,8 +598,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5860#5935#0" expanded="false" />
-            <element signature="e#5960#5985#0" expanded="false" />
+            <element signature="e#6285#6360#0" expanded="false" />
+            <element signature="e#6385#6410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -639,8 +643,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5860#5935#0" expanded="false" />
-            <element signature="e#5960#5985#0" expanded="false" />
+            <element signature="e#6285#6360#0" expanded="false" />
+            <element signature="e#6385#6410#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -772,19 +776,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/dayIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6740506">
-          <caret line="187" column="24" selection-start-line="187" selection-start-column="24" selection-end-line="187" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.914557">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
-            <element signature="e#1655#2027#0" expanded="false" />
-            <element signature="e#2165#3203#0" expanded="false" />
-            <element signature="e#3299#4466#0" expanded="false" />
-            <marker date="1543224953736" expanded="true" signature="6102:6301" placeholder="..." />
-            <marker date="1543224953736" expanded="true" signature="6121:6133" placeholder="..." />
-            <marker date="1543224953736" expanded="false" signature="6382:7056" placeholder="..." />
-            <marker date="1543224953736" expanded="true" signature="6419:6548" placeholder="..." />
-            <marker date="1543224953736" expanded="true" signature="6585:6714" placeholder="..." />
-            <marker date="1543224953736" expanded="true" signature="6749:6878" placeholder="..." />
-            <marker date="1543224953736" expanded="true" signature="6913:7042" placeholder="..." />
+            <element signature="e#1116#1855#0" expanded="false" />
+            <element signature="e#2535#3573#0" expanded="false" />
+            <element signature="e#3669#4836#0" expanded="false" />
+            <element signature="e#4975#6095#0" expanded="false" />
+            <marker date="1543226085321" expanded="true" signature="6527:6726" placeholder="..." />
+            <marker date="1543226085321" expanded="true" signature="6546:6558" placeholder="..." />
+            <marker date="1543226085321" expanded="false" signature="6807:7481" placeholder="..." />
+            <marker date="1543226085321" expanded="true" signature="6844:6973" placeholder="..." />
+            <marker date="1543226085321" expanded="true" signature="7010:7139" placeholder="..." />
+            <marker date="1543226085321" expanded="true" signature="7174:7303" placeholder="..." />
+            <marker date="1543226085321" expanded="true" signature="7338:7467" placeholder="..." />
           </folding>
         </state>
       </provider>

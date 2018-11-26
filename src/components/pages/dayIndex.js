@@ -16,7 +16,23 @@ export default class NewsDetail extends Component {
       gdCode: ['10'],
       gdType: ['D000101'],
       tableData: [],
-      columns: []
+      columns: [
+        {
+          title: '配种$分娩',
+          dataIndex: 'descLoc',
+          key: 'descLoc'
+        },
+        {
+          title: '当天',
+          dataIndex: 'datas[0]["VAL_TODAY"]',
+          key: 'datas[0]["VAL_TODAY"]'
+        },
+        {
+          title: '本月累计',
+          dataIndex: 'datas[0]["VAL_MONTH"]',
+          key: 'datas[0]["VAL_MONTH"]'
+        }
+      ]
     }
   }
   changeDate = (value, d) => {
@@ -223,7 +239,8 @@ export default class NewsDetail extends Component {
     }
   }
   doSearch = () => {
-    const {date} = this.state
+    const {date, gdType, gdCode} = this.state
+    this.getData(date, gdType, gdCode)
   }
   componentWillMount () {
     let date = df(new Date(), 'yyyy-mm-dd')
