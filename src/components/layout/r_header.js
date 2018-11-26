@@ -12,9 +12,8 @@ export default class RHeader  extends Component {
   }
  render() {
   return (
-    <div style={{padding: '15px', height: 60, backgroundColor: '#fef', position: 'fixed', top: 0, left: 0,right: 0, bottom: 0}}>
-      <Icon type="left" style={{ fontSize: 16, color: '#08c', padding: 5, cursor: 'pointer'}} onClick={this.back} />
-      <Button type="primary"> 标准按钮</Button>
+    <div>
+      <Icon type="left" style={{ fontSize: 18, color: '#08c', padding: 5, cursor: 'pointer'}} onClick={this.back} />
     </div>
   )
  }

@@ -12,7 +12,7 @@ export default class RouteMap extends Component {
   render() {
     return (
       <Router>
-        <div style={{marginTop: 60, minHeight: '100%', bgColor: 'red'}}>
+        <div>
           <Route exact path="/" component={Menus} />
           <Route path="/dayIndex" component={DayIndex}/>
           <Route path="/livestockIndex" component={LivestockIndex}/>

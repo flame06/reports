@@ -28,19 +28,21 @@ export default class NewsDetail extends Component {
         "legendData8": [],
         "descLocationName": []
       },
+      dataOjb01: [],
+      dataOjb02: [],
       container0Config: {}
     }
   }
-  changeDate = (value, date) => {
-    console.log(value, date)
-    console.log(Highcharts);
-    this.setState({date})
-    this.doSearch()
+  changeDate = (value, d) => {
+    this.setState({date: d})
+    this.getReport01(d)
+    this.getReport02(d)
+    this.getReport03(d)
   }
-  //  container0第一个表格的数据
-  getReport () {
+  //  获取表格数据，并构建表格
+  getReport01 (date) {
     const _self = this
-    const {orgCode, farmOrg, date, container0Config} = this.state
+    const {orgCode, farmOrg} = _self.state
     const dataOjb = {
       "locationID": [],
       "locationName": [],
@@ -84,108 +86,267 @@ export default class NewsDetail extends Component {
           // 根据当前语言选择中文或者英文
           dataOjb.descLocationName.push((typeof(result.LOCATION_NAME_LOC)=="undefined")?0:result.LOCATION_NAME_LOC);
         })
-        console.log(dataOjb)
         _self.setState({dataOjb})
-        new Highcharts.Chart('container0', {
-          chart: {
-            type: 'column'
-          },
-          credits:{
-            enabled: false
-          },
-          title: {
-            text: '各舍存栏信息'
-          },
-          xAxis: {
-            categories: dataOjb.descLocationName
-          },
-          yAxis: {
-            min: 0,
-            title: {
-              text: ''
-            },
-            stackLabels: {  // 堆叠数据标签
-              enabled: true,
-              style: {
-                fontWeight: 'bold',
-                color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
-              }
-            }
-          },
-          legend: {
-            align: 'center',
-            verticalAlign: 'top',
-            y: 20,
-            floating: true,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
-            borderColor: '#CCC',
-            borderWidth: 1,
-            shadow: false
-          },
-          tooltip: {
-            formatter: function () {
-              return '<b>' + this.x + '</b><br/>' +
-                this.series.name + ': ' + this.y + '<br/>' +
-                '总量: ' + this.point.stackTotal;
-            }
-          },
-          plotOptions: {
-            column: {
-              stacking: 'normal',
-              dataLabels: {
-                enabled: true,
-                color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
-                style: {
-                  // 如果不需要数据标签阴影，可以将 textOutline 设置为 'none'
-                  textOutline: '1px 1px black'
-                }
-              },
-              events: {
-                click: function (e) {
-                  alert('click---?')
-                }
-              }
-            }
-          },
-          series: [{
-            name: '期初',
-            data: dataOjb.legendData1
-          }, {
-            name: '采购',
-            data: dataOjb.legendData2
-          }, {
-            name: '转入',
-            data: dataOjb.legendData3
-          }, {
-            name: '转出',
-            data: dataOjb.legendData4
-          }, {
-            name: '销售',
-            data: dataOjb.legendData5
-          }, {
-            name: '死亡',
-            data: dataOjb.legendData6
-          }, {
-            name: '淘汰',
-            data: dataOjb.legendData7
-          }, {
-            name: '期末',
-            data: dataOjb.legendData8
-          }]
-        })
+        _self.getHighcharts01()
       })
-    //设置完成
-    console.log('改变后的配置')
-    //console.log(this.state.container0Config)
-    console.log(dataOjb.legendData3)
-
+  }
+  getReport02 (date) {
+    const _self = this
+    const {orgCode, farmOrg} = _self.state
+    const dataOjb01 = []
+    axios({
+      method: 'post',
+      url: `/report/${orgCode}/${farmOrg}/get_report`,
+      data: {
+        command: 'getCommand1',
+        dateToday: date,
+        endDate: date,
+        gdCode: ['1001'],
+        gdType: ['D000201'],
+        startDate: date,
+        datasFlag: '2'
+      }
+    })
+      .then(function (res) {
+        const data = res.data
+        data.map((result, i) => {
+          dataOjb01[i] = []
+          dataOjb01[i][1] = result.VAL_1;
+          dataOjb01[i][0] = result.NAME_VAL_1;
+        })
+        _self.setState({dataOjb01})
+        _self.getHighcharts02(dataOjb01)
+      })
+  }
+  getReport03 (date) {
+    const _self = this
+    const {orgCode, farmOrg} = _self.state
+    const dataOjb02 = []
+    axios({
+      method: 'post',
+      url: `/report/${orgCode}/${farmOrg}/get_report`,
+      data: {
+        command: 'getCommand1',
+        dateToday: date,
+        endDate: date,
+        gdCode: ['1002'],
+        gdType: ['D000201'],
+        startDate: date,
+        datasFlag: '2'
+      }
+    })
+      .then(function (res) {
+        const data = res.data
+        data.map((result, i) => {
+          dataOjb02[0] = result.PIG_QTY_BW24L
+          dataOjb02[1] = result.PIG_QTY_BW24
+          dataOjb02[2] = result.PIG_QTY_BW25
+          dataOjb02[3] = result.PIG_QTY_BW26
+          dataOjb02[4] = result.PIG_QTY_BW27
+          dataOjb02[5] = result.PIG_QTY_BW28
+          dataOjb02[6] = result.PIG_QTY_BW29M
+        })
+        _self.setState({dataOjb02})
+        _self.getHighcharts03(dataOjb02)
+      })
+  }
+  //  构建表格
+  getHighcharts01 () {
+    const {dataOjb} = this.state
+    new Highcharts.Chart('container0', {
+      chart: {
+        type: 'column'
+      },
+      credits:{
+        enabled: false
+      },
+      title: {
+        text: '各舍存栏信息'
+      },
+      xAxis: {
+        categories: dataOjb.descLocationName
+      },
+      yAxis: {
+        min: 0,
+        title: {
+          text: ''
+        },
+        stackLabels: {  // 堆叠数据标签
+          enabled: true,
+          style: {
+            fontWeight: 'bold',
+            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+          }
+        }
+      },
+      legend: {
+        align: 'center',
+        verticalAlign: 'top',
+        y: 20,
+        floating: true,
+        backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
+        borderColor: '#CCC',
+        borderWidth: 1,
+        shadow: false
+      },
+      tooltip: {
+        formatter: function () {
+          return '<b>' + this.x + '</b><br/>' +
+            this.series.name + ': ' + this.y + '<br/>' +
+            '总量: ' + this.point.stackTotal;
+        }
+      },
+      plotOptions: {
+        column: {
+          stacking: 'normal',
+          dataLabels: {
+            enabled: true,
+            color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white',
+            style: {
+              // 如果不需要数据标签阴影，可以将 textOutline 设置为 'none'
+              textOutline: '1px 1px black'
+            }
+          },
+          events: {
+            click: function (e) {
+              alert('click---?')
+            }
+          }
+        }
+      },
+      series: [{
+        name: '期初',
+        data: dataOjb.legendData1
+      }, {
+        name: '采购',
+        data: dataOjb.legendData2
+      }, {
+        name: '转入',
+        data: dataOjb.legendData3
+      }, {
+        name: '转出',
+        data: dataOjb.legendData4
+      }, {
+        name: '销售',
+        data: dataOjb.legendData5
+      }, {
+        name: '死亡',
+        data: dataOjb.legendData6
+      }, {
+        name: '淘汰',
+        data: dataOjb.legendData7
+      }, {
+        name: '期末',
+        data: dataOjb.legendData8
+      }]
+    })
+  }
+  getHighcharts02 (ojbData) {
+    console.log(ojbData)
+    new Highcharts.Chart('divA1Graph',{
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+      title: {
+        text: '存栏结构'
+      },
+      credits: {
+        enabled: false
+      },
+      tooltip: {
+        pointFormat: '{point.y}头</b>'
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          size:180,
+          point:{
+            events:{
+              mouseOver: function(e){
+                //console.log(e);
+              }
+            }
+          },
+          dataLabels: {
+            enabled: true,
+            distance: 10,
+            format: '{point.name}:<br><b>{point.y}头</b>',
+          },
+          showInLegend: true
+        }
+      },
+      series: [{
+        type: 'pie',
+        name: '',
+        data: ojbData
+      }]
+    })
+  }
+  getHighcharts03 (ojbData) {
+    new Highcharts.Chart('divB1Graph',{
+      chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+      },
+      title: {
+        text: '分周龄可售肥猪分布'
+      },
+      credits: {
+        enabled: false
+      },
+      exporting: {
+        allowHTML: true
+      },
+      tooltip: {
+        pointFormat: '{point.y}<b>头</b>'
+        //pointFormat: '{point.y}: <b>{point.percentage}%</b>'
+      },
+      plotOptions: {
+        pie: {
+          allowPointSelect: true,
+          cursor: 'pointer',
+          size:180,
+          point:{
+            events:{
+              mouseOver: function(e){
+                console.log(e);
+              }
+            }
+          },
+          dataLabels: {
+            enabled: true,
+            distance: 10,
+            format: '{point.name}:<br><b>{point.y}头</b>',
+          },
+          showInLegend: true
+        }
+      },
+      series: [{
+        type: 'pie',
+        name: '',
+        data: [
+          ['<24周', ojbData[0]],
+          [' 24周', ojbData[1]],
+          [' 25周', ojbData[2]],
+          [' 26周', ojbData[3]],
+          [' 27周', ojbData[4]],
+          [' 28周', ojbData[5]],
+          ['>29周', ojbData[6]]
+        ]
+      }]
+    })
   }
   doSearch = () => {
-    this.getReport()
-    const {container0Config} = this.state
-    new Highcharts.Chart('divA1Graph', container0Config)
-    new Highcharts.Chart('divB1Graph', container0Config)
- }
+    const {date} = this.state
+    this.getReport01(date)
+    this.getReport02(date)
+    this.getReport03(date)
+  }
   componentWillMount () {
     let date = df(new Date(), 'yyyy-mm-dd')
     this.setState({date})
