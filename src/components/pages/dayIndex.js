@@ -5,6 +5,7 @@ import {Button, Spin,DatePicker, Tabs } from 'antd'
 import axios from 'axios'
 import Highcharts from 'highcharts';
 import SwineTable from '@/components/pages/swineTable'
+alert('dayindex')
 export default class NewsDetail extends Component {
   constructor (props) {
     super(props)
@@ -36,6 +37,7 @@ export default class NewsDetail extends Component {
     }
   }
   changeDate = (value, d) => {
+    console.log(1)
     this.setState({date: d})
     const {gdType, gdCode} = this.state
     this.getData (d, gdType, gdCode)

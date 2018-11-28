@@ -3,6 +3,7 @@ import RouteMap from '@/components/router/route_map'
 import RHeader from '@/components/layout/r_header'
 import RFooter from '@/components/layout/r_footer'
 import {Layout, Menu, Breadcrumb } from 'antd'
+let filename = 'module.js';
 
 class App extends Component {
   constructor (props) {
