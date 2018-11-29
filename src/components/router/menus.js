@@ -12,7 +12,11 @@ export default class Menus extends Component {
     {
      link: '/livestockIndex',
      title: '猪只存栏信息'
-    }
+    },
+     {
+       link: '/realtimestateIndex',
+       title: '猪只实时状态'
+     }
    ]
   }
  }

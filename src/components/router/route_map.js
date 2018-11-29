@@ -10,8 +10,7 @@ import {asyncComponent} from '@/components/layout/asyncComponent'
 const Menus = asyncComponent(() => import('@/components/router/menus'))
 const DayIndex = asyncComponent(() => import('@/components/pages/dayIndex'))
 const LivestockIndex = asyncComponent(() => import('@/components/pages/livestockIndex'))
-//const DayIndex = asyncComponent()
-//const LivestockIndex = asyncComponent()
+const RealTimeStateIndex = asyncComponent(() => import('@/components/pages/realtimestateIndex'))
 export default class RouteMap extends Component {
   constructor (props) {
     super(props)
@@ -24,6 +23,7 @@ export default class RouteMap extends Component {
           <Route path="/menus" component={Menus}/>
           <Route path="/dayIndex" component={DayIndex}/>
           <Route path="/livestockIndex" component={LivestockIndex}/>
+          <Route path="/realtimestateIndex" component={RealTimeStateIndex}/>
           <Route render={()=><h1 style={{marginTop: 30, textAlign: 'center'}}>页面不见了！</h1>}></Route>
         </Switch>
       </Router>

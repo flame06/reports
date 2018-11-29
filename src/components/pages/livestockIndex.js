@@ -14,6 +14,7 @@ const SwineTable = import('@/components/pages/swineTable')
 export default class NewsDetail extends Component {
  constructor (props) {
   super(props)
+  alert('live  constructor')
   this.state = {
    orgCode: '161322001',
    farmOrg: '434701-0-0',
