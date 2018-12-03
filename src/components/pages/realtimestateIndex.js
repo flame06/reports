@@ -223,7 +223,7 @@ export default class RealtimestateIndex extends Component {
       }
     });
     chart.legend({
-      position: 'bottom'
+      // position: 'bottom'
     });
     chart.guide().html({
       position: ['50%', '50%'],
