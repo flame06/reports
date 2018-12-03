@@ -5,6 +5,10 @@ import {Button, Spin,DatePicker, Tabs } from 'antd'
 import axios from 'axios'
 import Highcharts from 'highcharts';
 import SwineTable from '@/components/pages/swineTable'
+
+const webapi = 'http://localhost:9090'
+const web = 'http://localhost:9190'
+
 alert('dayindex')
 export default class NewsDetail extends Component {
   constructor (props) {
@@ -47,7 +51,7 @@ export default class NewsDetail extends Component {
     const {orgCode, farmOrg} = _self.state
     axios({
       method: 'post',
-      url: `/report/${orgCode}/${farmOrg}/get_report`,
+      url: web + `/report/${orgCode}/${farmOrg}/get_report`,
       data: {
         command: 'getCommand1',
         dateToday: date,

@@ -77,7 +77,23 @@ export default class RealtimestateIndex extends Component {
         }
       ],
       swineQRData: [],
-      swineQRColumns: []
+      swineQRColumns: [
+        {
+          title: '',
+          dataIndex: 'ext',
+          key: 'ext'
+        },
+        {
+          title: 'swineTrack',
+          dataIndex: 'swineTrack',
+          key: 'swineTrack'
+        },
+        {
+          title: 'bornQty',
+          dataIndex: 'bornQty',
+          key: 'bornQty'
+        }
+      ]
     }
   }
   getSwineQRcode = (o) => {
@@ -86,17 +102,19 @@ export default class RealtimestateIndex extends Component {
     this.getQRData(this.state.date, o)
   }
   getQRData = (date, o) => {
+    const _self = this
     const {farmOrg, orgCode} = this.state
     axios({
       method: 'post',
       url: '/api/swine_sow_card/sow_cards',
       data: {
-        farmOrg: 'getCommand2',
-        orgCode: date,
+        farmOrg: farmOrg,
+        orgCode: orgCode,
         swineDateIn: o['SWINE_DATE_IN'],
         swineTrack: o['SWINE_TRACK']
       }
     }).then((res) => {
+      _self.setState({swineQRData: res.data})
       console.log(res.data)
     })
   }

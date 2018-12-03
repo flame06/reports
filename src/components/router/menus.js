@@ -16,6 +16,10 @@ export default class Menus extends Component {
      {
        link: '/realtimestateIndex',
        title: '猪只实时状态'
+     },
+     {
+       link: '/BostTask',
+       title: 'BossTask .js'
      }
    ]
   }

@@ -5,16 +5,16 @@ import PubSub from 'pubsub-js'
 import {Button, Calendar,DatePicker, Modal, Alert } from 'antd'
 import axios from 'axios'
 import Highcharts from 'highcharts';
-//import SwineTable from '@/components/pages/swineTable';
+import SwineTable from '@/components/pages/swineTable';
 import  '@/components/css/style.css'
 //import HighchartsDrilldown from 'highcharts/modules/drilldown';
 //import Highcharts3D from 'highcharts/highcharts-3d';
-alert('newsDeatails')
-const SwineTable = import('@/components/pages/swineTable')
+// alert('newsDeatails')
+// const SwineTable = import('@/components/pages/swineTable')
 export default class NewsDetail extends Component {
  constructor (props) {
   super(props)
-  alert('live  constructor')
+  // alert('live  constructor')
   this.state = {
    orgCode: '161322001',
    farmOrg: '434701-0-0',
@@ -431,7 +431,7 @@ export default class NewsDetail extends Component {
  }
  render() {
   const {date, showModal, tableData,columns, locationName } = this.state
-  alert('xxx' + date)
+  // alert('xxx' + date)
   return (
     <div>
      <div style={{textAlign: 'center'}}>

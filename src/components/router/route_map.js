@@ -4,13 +4,15 @@
 import React, {Component} from 'react'
 import {BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom'
 import {asyncComponent} from '@/components/layout/asyncComponent'
-//import Menus from '@/components/router/menus'
-//import DayIndex from '@/components/pages/dayIndex'
-//import LivestockIndex from '@/components/pages/livestockIndex'
+// import Menus from '@/components/router/menus'
+// import DayIndex from '@/components/pages/dayIndex'
+// import LivestockIndex from '@/components/pages/livestockIndex'
+// import RealTimeStateIndex from '@/components/pages/realtimestateIndex'
 const Menus = asyncComponent(() => import('@/components/router/menus'))
 const DayIndex = asyncComponent(() => import('@/components/pages/dayIndex'))
 const LivestockIndex = asyncComponent(() => import('@/components/pages/livestockIndex'))
 const RealTimeStateIndex = asyncComponent(() => import('@/components/pages/realtimestateIndex'))
+const BostTask = asyncComponent(() => import('@/components/pages/bossTask'))
 export default class RouteMap extends Component {
   constructor (props) {
     super(props)
@@ -24,6 +26,7 @@ export default class RouteMap extends Component {
           <Route path="/dayIndex" component={DayIndex}/>
           <Route path="/livestockIndex" component={LivestockIndex}/>
           <Route path="/realtimestateIndex" component={RealTimeStateIndex}/>
+          <Route path="/BostTask" component={BostTask}/>
           <Route render={()=><h1 style={{marginTop: 30, textAlign: 'center'}}>页面不见了！</h1>}></Route>
         </Switch>
       </Router>

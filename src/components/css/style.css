@@ -3,3 +3,8 @@
   text-decoration: underline;
   color: #00f;
 }
+.container {
+  width: 100%;
+  min-height: 100%;
+  border: 1px solid red;
+}

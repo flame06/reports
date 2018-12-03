@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60c18e2e-ccea-4ba6-aa9e-257ed7e624d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/reports_node_modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/reports.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reports.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/dayIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/dayIndex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/pages/livestockIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/livestockIndex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/pages/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/realtimestateIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/realtimestateIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/realtimestateIndex.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/router/menus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/router/menus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/router/route_map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/router/route_map.js" afterDir="false" />
     </list>
@@ -31,37 +29,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/pages/realtimestateIndex.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+            <state relative-caret-position="381">
+              <caret line="145" column="9" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_tests_/state-functions.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="179" column="19" lean-forward="true" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#588#1039#0" />
-                <element signature="e#1742#2266#0" />
-                <element signature="e#212#820#0" />
-                <element signature="e#1101#1226#0" />
-                <element signature="e#594#667#0" />
-                <element signature="e#1373#1571#0" />
-                <element signature="e#1595#1627#0" />
-                <element signature="e#1625#1914#0" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1193#1815#0" />
-                <element signature="e#2305#2402#0" />
-                <element signature="e#2573#2598#0" />
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#1580#1933#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/bossTask.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-36">
-              <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -69,11 +63,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="162" column="64" selection-start-line="162" selection-start-column="42" selection-end-line="162" selection-end-column="64" />
+            <state relative-caret-position="139">
+              <caret line="151" column="8" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="8" />
               <folding>
                 <element signature="e#5273#5719#0" />
                 <element signature="e#7698#7894#0" />
+                <element signature="e#7951#14428#0" />
                 <element signature="e#9405#10448#0" />
               </folding>
             </state>
@@ -81,37 +76,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/paths.js">
+        <entry file="file://$PROJECT_DIR$/src/components/pages/dayIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/start.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="327" column="32" lean-forward="true" selection-start-line="327" selection-start-column="32" selection-end-line="327" selection-end-column="32" />
+            <state relative-caret-position="1300">
+              <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,17 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pieLabel</find>
-      <find>axios</find>
-      <find>changedate</find>
-      <find>getData</find>
-      <find>tab</find>
-      <find>columns</find>
-      <find>tableData</find>
-      <find>alert(1</find>
-      <find>showmodal</find>
-      <find>date</find>
-      <find>swineColumns</find>
       <find>getSwineData</find>
       <find>swineData</find>
       <find>showModal</find>
@@ -146,13 +106,29 @@
       <find>closeModal</find>
       <find>context</find>
       <find>prox</find>
-      <find>createDevServerConfig</find>
       <find>utils</find>
       <find>prepareproxy</find>
       <find>PackageJson</find>
-      <find>proxy</find>
       <find>proxyConfig</find>
       <find>prepareProxy</find>
+      <find>devServer</find>
+      <find>proxy</find>
+      <find>createDevServerConfig</find>
+      <find>serverConfig</find>
+      <find>babel-preset-es2015</find>
+      <find>scr</find>
+      <find>Breadcrumb</find>
+      <find>Menu</find>
+      <find>alert</find>
+      <find>filename</find>
+      <find>SwineTable</find>
+      <find>sow</find>
+      <find>newsDeatails</find>
+      <find>BossTask</find>
+      <find>jest</find>
+      <find>@</find>
+      <find>moduleFileExtensions</find>
+      <find>enzyme</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,23 +139,31 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/router/nav_link.js" />
         <option value="$PROJECT_DIR$/src/components/layout/r_footer.js" />
-        <option value="$PROJECT_DIR$/src/components/css/style.css" />
         <option value="$PROJECT_DIR$/src/components/pages/swineTable.js" />
         <option value="$PROJECT_DIR$/src/components/layout/r_header.js" />
-        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/pages/test.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js" />
         <option value="$PROJECT_DIR$/src/components/pages/dayIndex.js" />
+        <option value="$PROJECT_DIR$/config/webpackDevServer.config.js" />
+        <option value="$PROJECT_DIR$/scripts/start.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/App.js" />
         <option value="$PROJECT_DIR$/src/components/layout/asyncComponent.js" />
         <option value="$PROJECT_DIR$/src/components/pages/livestockIndex.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/realtimestateIndex.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/add.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/BossTask .js" />
+        <option value="$PROJECT_DIR$/src/components/css/style.css" />
+        <option value="$PROJECT_DIR$/src/components/pages/bossTask .js" />
         <option value="$PROJECT_DIR$/src/components/router/route_map.js" />
         <option value="$PROJECT_DIR$/src/components/router/menus.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/pages/realtimestateIndex.js" />
-        <option value="$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js" />
+        <option value="$PROJECT_DIR$/_jest_/_tests_/state-functions.test.js" />
+        <option value="$PROJECT_DIR$/src/components/pages/bossTask.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
       </list>
     </option>
   </component>
@@ -189,11 +173,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="990" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="903" />
+    <option name="width" value="1024" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -265,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,6 +274,12 @@
               <item name="reports" type="b2602c69:ProjectViewProjectNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="_tests_" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reports" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,6 +293,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,16 +304,19 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="D:/ifarm-new-front" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\report\reports" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\report\reports\src" />
+      <recent name="D:\report\reports\_jest_" />
       <recent name="D:\report\reports\src\components\pages" />
       <recent name="D:\report\reports\src\components\router" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\report\reports" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -339,7 +331,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.a spy, when configured to call through">
+    <configuration name="a spy" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
+      <test-names>
+        <test-name value="a spy" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="a spy, when configured to call through" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
+      <test-names>
+        <test-name value="a spy, when configured to call through" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="a suite 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
+      <test-names>
+        <test-name value="a suite 2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="a suite 2.nested inside describe.可以访问外部describe的beforeEach的变量" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
+      <test-names>
+        <test-name value="a suite 2" />
+        <test-name value="nested inside describe" />
+        <test-name value="可以访问外部describe的beforeEach的变量" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="a suite too" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/_tests_/state-functions.test.js" />
+      <test-names>
+        <test-name value="a suite too" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -361,6 +420,15 @@
       <recursive>false</recursive>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.a spy, when configured to call through" />
+        <item itemvalue="Jest.a spy" />
+        <item itemvalue="Jest.a suite too" />
+        <item itemvalue="Jest.a suite 2.nested inside describe.可以访问外部describe的beforeEach的变量" />
+        <item itemvalue="Jest.a suite 2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -378,31 +446,73 @@
       <workItem from="1543459554650" duration="400000" />
       <workItem from="1543460001360" duration="277000" />
       <workItem from="1543460303068" duration="85000" />
-      <workItem from="1543460403589" duration="17625000" />
+      <workItem from="1543460403589" duration="20734000" />
+      <workItem from="1543538661665" duration="30630000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="a_suite_can_use__this__to_share_initial_data - 2018.12.03 at 09h 07m 02s.xml">
+      <configuration name="a suite.can use &quot;this&quot; to share initial data" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="state-functions_test_js - 2018.12.03 at 09h 08m 15s.xml">
+      <configuration name="state-functions.test.js" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_suite_2 - 2018.12.03 at 09h 08m 31s.xml">
+      <configuration name="a suite 2" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_suite_2_nested_inside_describe_可以访问外部describe的beforeEach的变量 - 2018.12.03 at 09h 12m 47s.xml">
+      <configuration name="a suite 2.nested inside describe.可以访问外部describe的beforeEach的变量" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_suite_too - 2018.12.03 at 09h 14m 25s.xml">
+      <configuration name="a suite too" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_suite_too - 2018.12.03 at 09h 15m 05s.xml">
+      <configuration name="a suite too" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_suite_too - 2018.12.03 at 09h 15m 46s.xml">
+      <configuration name="a suite too" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_spy - 2018.12.03 at 09h 18m 35s.xml">
+      <configuration name="a spy" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_spy - 2018.12.03 at 09h 20m 34s.xml">
+      <configuration name="a spy" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="a_spy,_when_configured_to_call_through - 2018.12.03 at 09h 48m 33s.xml">
+      <configuration name="a spy, when configured to call through" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18774000" />
+    <option name="totallyTimeSpent" value="52513000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="22" width="1440" height="990" extended-state="0" />
+    <frame x="903" y="0" width="1024" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2382311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2413793" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23329683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="RNConsole" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.36682242" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6056955" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -426,40 +536,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/pages/livestockIndex.js</url>
-          <line>390</line>
-          <option name="timeStamp" value="2" />
+          <line>79</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/pages/livestockIndex.js</url>
-          <line>79</line>
+          <url>file://$PROJECT_DIR$/src/_tests_/state-functions.test.js</url>
+          <line>73</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/router/nav_link.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/r_footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/highcharts/es-modules/parts/Dynamics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -470,31 +559,10 @@
     <entry file="file://$PROJECT_DIR$/node_modules/ant-design-palettes/.babelrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/r_header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/build.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="31" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -507,22 +575,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/asyncComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/router/route_map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/router/menus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -567,113 +605,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/swineTable.js">
+    <entry file="file://$PROJECT_DIR$/src/components/layout/r_footer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="175">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pages/dayIndex.js">
+    <entry file="file://$PROJECT_DIR$/src/components/layout/r_header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/paths.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="309" column="3" selection-start-line="309" selection-start-column="3" selection-end-line="309" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="93" column="16" selection-start-line="93" selection-start-column="16" selection-end-line="93" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jest/fileTransform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/jestT/react-testing-demo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/asyncComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
-            <element signature="e#2572#3610#0" />
-            <element signature="e#3706#4873#0" />
-            <element signature="e#5012#6132#0" />
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1193#1219#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/livestockIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1490">
-          <caret line="389" lean-forward="true" selection-start-line="389" selection-end-line="389" />
+        <state relative-caret-position="325">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
-            <element signature="e#831#905#0" />
-            <element signature="e#1529#1626#0" />
+            <element signature="e#0#41#0" expanded="true" />
             <element signature="e#1670#3407#0" />
+            <element signature="e#1752#2066#0" />
+            <element signature="e#2075#2321#0" />
             <element signature="e#3433#4055#0" />
             <element signature="e#4081#4887#0" />
             <element signature="e#4923#6899#0" />
-            <element signature="e#6450#6891#0" />
             <element signature="e#6932#7671#0" />
             <element signature="e#7704#8732#0" />
             <element signature="e#8765#9300#0" />
             <element signature="e#9319#9426#0" />
+            <element signature="e#9447#9487#0" />
+            <element signature="e#9511#9581#0" />
+            <element signature="e#9605#9627#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/pages/realtimestateIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#588#1039#0" />
-            <element signature="e#1742#2266#0" />
-            <element signature="e#212#820#0" />
-            <element signature="e#1101#1226#0" />
-            <element signature="e#594#667#0" />
-            <element signature="e#1373#1571#0" />
-            <element signature="e#1595#1627#0" />
-            <element signature="e#1625#1914#0" />
+            <element signature="e#614#1128#0" />
+            <element signature="e#1171#2029#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1193#1815#0" />
-            <element signature="e#2305#2402#0" />
-            <element signature="e#2573#2598#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pages/swineTable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/router/nav_link.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/router/route_map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/router/menus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.dev.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="162" column="64" selection-start-line="162" selection-start-column="42" selection-end-line="162" selection-end-column="64" />
+        <state relative-caret-position="139">
+          <caret line="151" column="8" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="8" />
           <folding>
             <element signature="e#5273#5719#0" />
             <element signature="e#7698#7894#0" />
+            <element signature="e#7951#14428#0" />
             <element signature="e#9405#10448#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/dayIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="1300">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/start.js">
+    <entry file="file://$PROJECT_DIR$/src/components/pages/bossTask.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-dev-utils/WebpackDevServerUtils.js">
+    <entry file="file://$PROJECT_DIR$/src/_tests_/state-functions.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="327" column="32" lean-forward="true" selection-start-line="327" selection-start-column="32" selection-end-line="327" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/paths.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="335">
+          <caret line="179" column="19" lean-forward="true" selection-start-line="179" selection-start-column="19" selection-end-line="179" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#1580#1933#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        <state relative-caret-position="381">
+          <caret line="145" column="9" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="9" />
         </state>
       </provider>
     </entry>
